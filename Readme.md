@@ -13,6 +13,11 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
 "OPTIONAL" in this document are to be interpreted as described in
 [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
+## How to get it
+
+The Plan is to release this to the Firefox Addon Store, but atm. you need to download it from this repository and add it 
+manually to your browser.
+
 ## Why?
 Good Question. Let me explain.  
 I tend to forget to like videos I actual enjoyed, specially when im watching a playlist and multiple videos in a row.   
