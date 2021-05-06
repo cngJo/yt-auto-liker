@@ -5,6 +5,9 @@
 ## Disclaimer
 This Product is not assigned to YouTube in any way or form!  
 
+**BETA** This Product is not finished yet an in **active** development. Expect drastic changes until the first version
+is released. 
+
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
 NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
 "OPTIONAL" in this document are to be interpreted as described in
