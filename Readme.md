@@ -1,4 +1,4 @@
-<div style="text-align: center;"><h1>YouTube Auto Liker</h1></div>
+<div align="center"><h1>YouTube Auto Liker</h1></div>
 
 > by Johannes Przymusinski, 2021
 
