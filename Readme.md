@@ -1,6 +1,7 @@
-<div align="center"><h1>YouTube Auto Liker</h1></div>
-
-> by Johannes Przymusinski, 2021
+<div align="center">
+    <h1>YouTube Auto Liker</h1>
+    <small>&copy; 2021, Johannes Przymusinski</small>
+</div>
 
 ## Disclaimer
 This Product is not assigned to YouTube in any way or form!  
