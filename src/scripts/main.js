@@ -6,18 +6,9 @@ let
     ,observer = new MutationObserver(function(mutations) {
 
         mutations.forEach(function(mutation) {
-
             if (oldHref !== document.location.href) {
-
-                let href = document.location.href;
-
-                oldHref = href;
-
-                if (href.match(/\/watch\?v=/gm)) {
-                    alert("Gotcha! Your watching a video!");
-                }
+                handle();
             }
-
         });
 
     });
@@ -29,3 +20,21 @@ let config = {
 
 observer.observe(bodyList, config);
 
+function handle() {
+    let href = document.location.href;
+
+    oldHref = href;
+
+    if (href.match(/\/watch\?v=/gm)) {
+        let likeButton = document.querySelector("#top-level-buttons").firstChild;
+
+        // Check if the button is marked active (means, the video is already liked)
+        if (likeButton.classList.contains("style-default-active")) {
+            return;
+        }
+
+        likeButton.click();
+    }
+}
+
+handle();
