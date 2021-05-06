@@ -30,6 +30,7 @@ function handle() {
 
         // Check if the button is marked active (means, the video is already liked)
         if (likeButton.classList.contains("style-default-active")) {
+            console.log("[YT-AL]: Video already Liked!");
             return;
         }
 
